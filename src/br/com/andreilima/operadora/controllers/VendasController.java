@@ -1,3 +1,6 @@
+/**
+ * Controler que gera log das vendas e salva no mysql
+ */
 package br.com.andreilima.operadora.controllers;
 
 import org.hibernate.Session;
