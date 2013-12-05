@@ -1,7 +1,5 @@
 package br.com.andreilima.operadora.controllers;
 
-import java.util.logging.Logger;
-
 import org.hibernate.Session;
 
 import br.com.andreilima.operadora.dao.VendasDAO;
@@ -28,7 +26,5 @@ public class VendasController {
 		dao.persiste(venda);
 		Gson gson = new Gson();
 		System.out.println(gson.toJson(venda));
-		Logger logger = Logger.getLogger("catalina.out");
-		logger.fine(gson.toJson(venda));
 	}
 }
