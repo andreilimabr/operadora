@@ -18,6 +18,7 @@ public class Venda {
 	private String regiao;
 	private String cidade;
 	private String uf;
+	private String geocode;
 	public String getTimestamp() {
 		return timestamp;
 	}
@@ -77,5 +78,11 @@ public class Venda {
 	}
 	public void setId(int id) {
 		this.id = id;
+	}
+	public String getGeocode() {
+		return geocode;
+	}
+	public void setGeocode(String geocode) {
+		this.geocode = geocode;
 	}
 }
